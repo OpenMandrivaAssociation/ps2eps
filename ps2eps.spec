@@ -1,6 +1,6 @@
 %define name	ps2eps
-%define version 1.58
-%define release 1mdk
+%define version 1.64
+%define release %mkrel 1
 
 Name: 	 	%{name}
 Summary: 	Converts standard PostScript documents to EPS
