@@ -11,6 +11,7 @@ Source:		http://www.telematik.informatik.uni-karlsruhe.de/~bless/%{name}-%{versi
 URL:		http://www.telematik.informatik.uni-karlsruhe.de/~bless/ps2eps.html
 License:	GPL
 Group:		Publishing
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 Ps2eps is a tool (written in Perl) to produce Encapsulated PostScript Files
