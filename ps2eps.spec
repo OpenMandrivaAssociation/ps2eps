@@ -46,3 +46,38 @@ rm -rf $RPM_BUILD_ROOT
 %doc *.txt doc/html doc/pdf
 %{_bindir}/*
 %{_mandir}/man1/*
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.64-5mdv2010.0
++ Revision: 430810
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.64-4mdv2009.0
++ Revision: 259334
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.64-3mdv2009.0
++ Revision: 247234
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 1.64-1mdv2008.1
++ Revision: 140737
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Thu Jun 14 2007 Austin Acton <austin@mandriva.org> 1.64-1mdv2008.0
++ Revision: 39763
+- new version
+- mkrel
+- Import ps2eps
+
+
+
+* Thu Aug 25 2005 Austin Acton <austin@mandriva.org> 1.58-1mdk
+- New release 1.58
+
+* Mon Jan 17 2005 Austin Acton <austin@mandrake.org> 1.54-1mdk
+- initial package
