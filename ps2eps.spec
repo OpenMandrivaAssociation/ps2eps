@@ -8,7 +8,7 @@ Version: 	%{version}
 Release: 	%{release}
 
 Source:		http://www.telematik.informatik.uni-karlsruhe.de/~bless/%{name}-%{version}.tar.bz2
-URL:		http://www.telematik.informatik.uni-karlsruhe.de/~bless/ps2eps.html
+URL:		https://www.telematik.informatik.uni-karlsruhe.de/~bless/ps2eps.html
 License:	GPL
 Group:		Publishing
 BuildRoot:	%{_tmppath}/%{name}-buildroot
